@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 3.7rem;
+  padding: 2.9rem 7.6rem 0;
+  .logo {
+    height: 3.2rem;
+  }
+  .main-nav-list {
+    display: flex;
+    list-style: none;
+    gap: 3.2rem;
+    :link,
+    :visited {
+      text-decoration: none;
+      font-size: 1.6rem;
+      font-weight: 700;
+      color: $text-color;
+    }
+  }
+}
