@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {
+  // font-size: 10px;
+  // 10px / 16px = 0.625 = 62.5%
+  // Percentage of user's browser font-size setting
+  font-size: 62.5%;
+  font-family: "DM Sans", sans-serif;
+}
+@import "./components/header.scss";
+@import "./components/heroSection.scss";
+@import "./components/mobileFriendlySection.scss";
+@import "./components/marketPlaceSection.scss";
+@import "./components/bestDecisionSection.scss";
+@import "./components/videoSection.scss";
+@import "./components/integratedToolsSection.scss";
+@import "./components/appThemeSection.scss";
+@import "./components/checkMark.scss";
+@import "./components/cards.scss";
+@import "./components/bestDecisionCard.scss";
+@import "./components/downloadBtn.scss";
+@import "./components/accordian.scss";
+@import "./components/footer.scss";
+@import "./components/blogCard.scss";
+@import "./components/pagination.scss";
+@import "./components/pricingPlan.scss";
+@import "./components/getStarted.scss";
+@import "./pages/faqs.scss";
+@import "./pages/blog.scss";
+@import "./pages/pricing.scss";
