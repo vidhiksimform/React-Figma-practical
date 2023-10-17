@@ -1,0 +1,28 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 363" clip-path="url(#clip0_0_7563)">
+<g id="Rectangle 661" filter="url(#filter0_d_0_7563)">
+<rect width="120" height="120" rx="10" fill="white"/>
+</g>
+<g id="figma-1">
+<path id="path0_fill" d="M50 90C55.52 90 60 85.52 60 80V70H50C44.48 70 40 74.48 40 80C40 85.52 44.48 90 50 90Z" fill="#0ACF83"/>
+<path id="path1_fill" d="M40 60C40 54.48 44.48 50 50 50H60V70H50C44.48 70 40 65.52 40 60Z" fill="#A259FF"/>
+<path id="path1_fill_1_" d="M40 40C40 34.48 44.48 30 50 30H60V50H50C44.48 50 40 45.52 40 40Z" fill="#F24E1E"/>
+<path id="path2_fill" d="M60 30H70C75.52 30 80 34.48 80 40C80 45.52 75.52 50 70 50H60V30Z" fill="#FF7262"/>
+<path id="path3_fill" d="M80 60C80 65.52 75.52 70 70 70C64.48 70 60 65.52 60 60C60 54.48 64.48 50 70 50C75.52 50 80 54.48 80 60Z" fill="#1ABCFE"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_d_0_7563" x="-20" y="-20" width="180" height="180" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dx="10" dy="10"/>
+<feGaussianBlur stdDeviation="15"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.435294 0 0 0 0 0.462745 0 0 0 0 0.541176 0 0 0 0.160784 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_7563"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_7563" result="shape"/>
+</filter>
+<clipPath id="clip0_0_7563">
+<rect width="120" height="120" fill="white"/>
+</clipPath>
+</defs>
+</svg>

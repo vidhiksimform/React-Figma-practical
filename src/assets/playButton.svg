@@ -1,0 +1,11 @@
+<svg width="136" height="136" viewBox="0 0 136 136" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="play button" clip-path="url(#clip0_0_7637)">
+<path id="Ellipse 34" d="M68 136C105.555 136 136 105.555 136 68C136 30.4446 105.555 0 68 0C30.4446 0 0 30.4446 0 68C0 105.555 30.4446 136 68 136Z" fill="#416FF4"/>
+<path id="Polygon 1" d="M88 68L56 87V49L88 68Z" fill="white"/>
+</g>
+<defs>
+<clipPath id="clip0_0_7637">
+<rect width="136" height="136" fill="white"/>
+</clipPath>
+</defs>
+</svg>
