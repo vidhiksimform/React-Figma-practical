@@ -1,0 +1,19 @@
+.section-cta{
+  .hero-container {
+    margin: 8.9rem auto 0;
+    text-align: center;
+    .hero-text-box {
+      color: $text-color;
+      font-weight: 700;
+      line-height: 7rem;
+    }
+    .hero-subtext {
+      margin-bottom: 4.7rem;
+    }
+    .download-btn {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+    }
+  }
+}

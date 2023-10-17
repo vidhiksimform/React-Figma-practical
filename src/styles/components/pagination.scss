@@ -1,0 +1,18 @@
+.page-number {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  font-size: 1.6rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: $black-color;
+  border: 1px solid $pagination-border;
+}
+.activePage {
+  background-color: $button-color;
+  color: $white-color;
+  border: none;
+}

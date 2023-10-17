@@ -1,0 +1,25 @@
+.section-mobileFriendly {
+  margin-top: 15.6rem;
+  .mobileFriendly {
+    display: grid;
+    row-gap: 14.2rem;
+    column-gap: 13rem;
+    .mobileFriendly-sub-text {
+      display: inline-block;
+      margin-top: 2.6rem;
+      color: $button-color;
+      font-size: 1.6rem;
+      font-weight: 700;
+      text-decoration: none;
+      line-height: 2;
+      border-bottom: 1px solid currentColor;
+    }
+  }
+  .mobileFriendly-cards {
+    display: grid;
+    justify-content: space-between;
+    gap: 2.8rem;
+    margin-top: 13rem;
+    margin-bottom: 9.5rem;
+  }
+}

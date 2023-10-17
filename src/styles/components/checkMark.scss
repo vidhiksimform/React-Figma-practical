@@ -1,0 +1,15 @@
+.market-place-checkmark {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  margin-bottom: 2.2rem;
+  .checkmark-text {
+    color: $text-tertiary;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 2.5rem;
+  }
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
