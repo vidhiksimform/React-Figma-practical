@@ -1,0 +1,21 @@
+.pricing-container {
+  text-align: center;
+  .pricing-heading {
+    color: $text-color;
+    font-size: 6rem;
+    font-weight: 700;
+    margin-top: 7.9rem;
+    margin-bottom: 3.9rem;
+  }
+  .pricing-monthly {
+    background-color: $button-color;
+    color: $white-color;
+    border-radius: 2rem;
+    padding: 0.5rem 1rem;
+    margin-right: 2.55rem;
+  }
+  .pricing-plan {
+    font-size: 1.2rem;
+    font-weight: 700;
+  }
+}

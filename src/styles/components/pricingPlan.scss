@@ -1,0 +1,72 @@
+.plan-category {
+  margin-top: 11.3rem;
+  display: grid;
+  .plan-heading {
+    padding-top: 3rem;
+    padding-bottom: 4.7rem;
+    .plan-name {
+      color: $text-secondary;
+      font-size: 1.6rem;
+      font-weight: 700;
+    }
+    .plan-rupees {
+      color: $text-color;
+      font-size: 3.4rem;
+      font-weight: 700;
+      margin-top: 2.7rem;
+      margin-bottom: 0.8rem;
+    }
+    .plan-period {
+      color: $text-tertiary;
+      font-size: 1.6rem;
+      font-weight: 400;
+    }
+  }
+  .plan-heading:first-child {
+    grid-column-start: 2;
+  }
+  .plan-heading:nth-child(4n-1) {
+    background-color: $text-footer;
+    color: $white-color;
+    border-top-left-radius: 0.9rem;
+    border-top-right-radius: 0.9rem;
+    padding-top: 3rem;
+    .plan-name,
+    .plan-rupees,
+    .plan-period {
+      color: $white-color;
+    }
+    .plan-name {
+      border-radius: 1.4rem;
+      padding: 1px 12px;
+      background-color: $green-color;
+      display: table;
+      margin: 0px auto 0px auto;
+    }
+  }
+  > p {
+    border-bottom: 1px solid $card-border;
+    color: $text-tertiary;
+    padding: 15px 0;
+  }
+  .text-tertiary:nth-child(5n-2) {
+    background-color: $text-footer;
+    color: $white-color;
+    border-bottom: 1px solid transparent;
+  }
+  .get-started-container:nth-child(4n-1) {
+    background-color: $text-footer;
+    border-end-start-radius: 0.9rem;
+    border-end-end-radius: 0.9rem;
+    padding-bottom: 3rem;
+    .get-started-text {
+      color: $white-color;
+      span {
+        border: 2px solid $white-color;
+      }
+    }
+  }
+  .get-started-container:not(.get-started-container ~ .get-started-container) {
+    grid-column-start: 2;
+  }
+}
