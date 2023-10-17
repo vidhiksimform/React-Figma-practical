@@ -1,0 +1,30 @@
+.faqs-container {
+  margin-top: 8.5rem;
+  .faqs-heading {
+    text-align: center;
+    color: $text-color;
+    margin-bottom: 9.4rem;
+  }
+  .faqs-menu {
+    display: flex;
+    gap: 17.4rem;
+    .faqs-main-nav-list {
+      display: flex;
+      list-style: none;
+      gap: 3.2rem;
+      flex-direction: column;
+      :link,
+      :visited {
+        text-decoration: none;
+        font-size: 1.6rem;
+        font-weight: 400;
+        color: $text-color;
+      }
+      > li:first-child .faqs-main-nav-link:link,
+      > li:first-child .faqs-main-nav-link:visited {
+        color: $button-color;
+        font-weight: 700;
+      }
+    }
+  }
+}

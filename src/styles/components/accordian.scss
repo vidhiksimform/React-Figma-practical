@@ -1,0 +1,46 @@
+.accordion-faq {
+  .accordian-heading {
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: $text-color;
+  }
+  p {
+    padding-bottom: 30px;
+    line-height: 1.4;
+  }
+  .active {
+    background-color: $faq-background;
+  }
+  .inactive {
+    display: none;
+  }
+  > div {
+    margin-bottom: 20px;
+    padding: 0px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+}
+.accordian-container {
+  border: 1px solid $border-color;
+  .accordian-question {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: $text-color;
+    margin-top: 1.85rem;
+  }
+  .accordion-faq-heading {
+    display: flex;
+    justify-content: space-between;
+  }
+  .text-answer {
+    line-height: 2.8rem;
+    color: $text-secondary;
+  }
+  .accordian-list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 6rem;
+  }
+}
