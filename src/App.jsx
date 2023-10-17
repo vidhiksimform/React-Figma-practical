@@ -1,6 +1,5 @@
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Home from "./pages/Home";
-import Landing from "./pages/Landing";
 import Error from "./pages/NotFound";
 import "./styles/globals.scss";
 import Faqs from "./pages/Faqs";
@@ -11,10 +10,6 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <Home />,
-  },
-  {
-    path: "/landing",
-    element: <Landing />,
   },
   {
     path: "/blog",
