@@ -1,0 +1,90 @@
+.blog-section {
+  margin-top: 3.4rem;
+  margin-bottom: 6.9rem;
+  .blog-hero {
+    padding: 6.1rem 0;
+    text-align: center;
+    background-color: $blog-color;
+    .blog-heading {
+      font-size: 6rem;
+      font-weight: 700;
+    }
+    .blog-text {
+      margin-top: 3.05rem;
+      color: $text-secondary;
+      font-size: 2rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 3.4rem;
+    }
+  }
+  .blog-main {
+    display: grid;
+    grid-template-columns: 3fr 1.5fr;
+    gap: 20px;
+    margin: 6.9rem 30rem 0;
+    .blog-container {
+      display: flex;
+      flex-direction: column;
+      gap: 10.8rem;
+      .blog-pagination {
+        display: flex;
+        gap: 20px;
+        .pagination-arrow {
+          font-size: 25px;
+          font-weight: 700;
+        }
+      }
+    }
+    .recent-post {
+      .search {
+        border-radius: 0.5rem;
+        border: none;
+        border: 1px solid $border-color;
+        padding: 2rem 2.5rem;
+        background: url("../../src/assets/search.svg") no-repeat 90%;
+        width: 70%;
+        margin-bottom: 7.4rem;
+      }
+      .recent-post-heading {
+        font-size: 2rem;
+        font-weight: 700;
+        margin-bottom: 3.1rem;
+      }
+      .recent-post-container {
+        display: flex;
+        gap: 1.06rem;
+        margin-bottom: 2rem;
+        align-items: center;
+        .recent-post-img {
+          width: 10rem;
+          height: 7rem;
+          border-radius: 2px;
+        }
+        .recent-post-text {
+          font-size: 1.6rem;
+          font-weight: 700;
+          color: $text-color;
+          margin-bottom: 0.9rem;
+        }
+        .recent-post-date {
+          font-size: 1.4rem;
+          font-weight: 400;
+          color: $text-secondary;
+        }
+      }
+      .categories-container {
+        margin-top: 10rem;
+        .blog-categories {
+          font-size: 1.6rem;
+          font-weight: 400;
+          color: $text-secondary;
+          margin-bottom: 2rem;
+        }
+        .blog-categories:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}

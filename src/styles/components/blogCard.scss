@@ -1,0 +1,40 @@
+.blog-card {
+  .blog-card-img {
+    border-radius: 10px;
+  }
+  .blog-card-heading {
+    color: $text-color;
+    font-size: 3.4rem;
+    font-weight: 700;
+    line-height: 5rem;
+    margin-top: 1.3rem;
+    padding-right: 20rem;
+  }
+  .blog-card-text {
+    margin-top: 1.9rem;
+    color: $text-secondary;
+    line-height: 2.8rem;
+    padding-right: 20rem;
+  }
+  .blog-card-continue {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3.3rem;
+    padding-right: 20rem;
+    .blog-card-reading {
+      display: inline-block;
+      color: $button-color;
+      font-size: 1.6rem;
+      font-weight: 700;
+      text-decoration: none;
+    }
+    .blog-card-comments {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      margin-bottom: 6px;
+      padding-left: 6px;
+    }
+  }
+}
