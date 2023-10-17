@@ -7,7 +7,7 @@ const IntegratedToolSection = () => {
         {integratedTools.map((item, index) => (
           <img
             className="tools-img"
-            src={`../../../src/assets/${item}`}
+            src={`/assets/${item}`}
             alt={item}
             key={index}
           />

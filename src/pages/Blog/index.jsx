@@ -29,7 +29,9 @@ const Blog = () => {
             <div className="blog-pagination">
               <Pagination pageNo={"1"} activePage={"activePage"} />
               <Pagination pageNo={"2"} />
-              <a href="#" className="page-number pagination-arrow">&#8594;</a>
+              <a href="#" className="page-number pagination-arrow">
+                &#8594;
+              </a>
             </div>
           </div>
           <div className="recent-post">
@@ -42,7 +44,7 @@ const Blog = () => {
             {recentPost.map(({ imgName, text, date }, index) => (
               <div className="recent-post-container" key={index}>
                 <img
-                  src={`../../src/assets/${imgName}.svg`}
+                  src={`/assets/${imgName}.svg`}
                   alt={text}
                   className="recent-post-img"
                 />

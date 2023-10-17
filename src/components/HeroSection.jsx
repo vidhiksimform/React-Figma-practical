@@ -17,7 +17,7 @@ const HeroSection = () => {
             <DownloadBtn />
           </div>
           <div style={{ marginTop: "7.8rem" }}>
-            <img src={"../../src/assets/hero.svg"} />
+            <img src={"/assets/hero.svg"} />
           </div>
         </div>
       </div>

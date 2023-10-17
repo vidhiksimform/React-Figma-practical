@@ -28,11 +28,11 @@ const Accordian = ({ heading }) => {
               <div>
                 {accordion === index ? (
                   <span className="verticle">
-                    <img src={"../../src/assets/arrow-up.svg"} />
+                    <img src={"/assets/arrow-up.svg"} />
                   </span>
                 ) : (
                   <span className="horizental">
-                    <img src={"../../src/assets/arrow-down.svg"} />
+                    <img src={"/assets/arrow-down.svg"} />
                   </span>
                 )}
               </div>

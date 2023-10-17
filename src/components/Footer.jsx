@@ -13,7 +13,7 @@ const Footer = () => {
       <div className="container grid grid-footer">
         <div className="logo-col">
           <a href="#" className="footer-logo">
-            <img className="logo" src="../../src/assets/logo.svg" alt="logo" />
+            <img className="logo" src="/assets/logo.svg" alt="logo" />
           </a>
           <div>
             <p className="follow-us text-tertiary footer-text">Follow us on:</p>
@@ -22,7 +22,7 @@ const Footer = () => {
                 <li key={index}>
                   <a className="footer-link" href="#">
                     <img
-                      src={`../../src/assets/${item}.svg`}
+                      src={`/assets/${item}.svg`}
                       className="social-icon"
                       alt={`${item}`}
                     />

@@ -8,12 +8,12 @@ export const navigationMenu = [
 ];
 export const downloadBtn = [
   {
-    imgUrl: "../../src/assets/appstore.svg",
+    imgUrl: "/assets/appstore.svg",
     text: "Download on the",
     subText: "App Store",
   },
   {
-    imgUrl: "../../src/assets/playstore.svg",
+    imgUrl: "/assets/playstore.svg",
     text: "GET IT ON",
     subText: "Google Play",
   },

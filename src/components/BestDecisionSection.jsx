@@ -25,7 +25,7 @@ const BestDecisionSection = () => {
           </div>
           <div>
             <img
-              src="../../../src/assets/bestDecision.svg"
+              src="/assets/bestDecision.svg"
               alt="best decision"
             />
           </div>
