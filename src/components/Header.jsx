@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { navigationMenu } from "../utils";
 
 const Header = () => {
@@ -8,9 +9,9 @@ const Header = () => {
         <ul className="main-nav-list">
           {navigationMenu.map(({ menuName, redirectRoute }, index) => (
             <li key={index}>
-              <a className="main-nav-link" href={`/${redirectRoute}`}>
+              <Link to={`/${redirectRoute}`} xclassName="main-nav-link">
                 {menuName}
-              </a>
+              </Link>
             </li>
           ))}
         </ul>
