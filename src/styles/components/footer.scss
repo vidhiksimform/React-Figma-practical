@@ -1,0 +1,54 @@
+.footer {
+  margin-top: 4.3rem;
+  margin-bottom: 11.4rem;
+  .grid-footer {
+    grid-template-columns: 1.5fr 1fr 1fr 1fr 1.5fr;
+    .logo-col {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      .footer-logo {
+        display: block;
+      }
+      .follow-us {
+        margin-bottom: 1.7rem;
+      }
+      .footer-text {
+        color: $text-footer;
+      }
+      .social-links {
+        list-style: none;
+        display: flex;
+        gap: 2.4rem;
+        .social-icon {
+          width: 2.1rem;
+          height: 2.1rem;
+        }
+      }
+    }
+  }
+  .footer-nav {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+    .footer-link:link,
+    .footer-link:visited {
+      text-decoration: none;
+      color: $text-tertiary;
+    }
+  }
+}
+.nav-col {
+  .footer-heading {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: $text-tertiary;
+    margin-bottom: 3.2rem;
+  }
+  .footer-download {
+    display: flex;
+    flex-direction: column;
+    gap: 1.9rem;
+  }
+}
